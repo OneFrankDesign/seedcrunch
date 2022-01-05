@@ -30,15 +30,6 @@
     margin-left: 7.5px;
   }
 
-  &:hover {
-    cursor: pointer;
-    border-color: aquamarine;
-
-    .content {
-      border-color: aquamarine;
-    }
-  }
-
   .content {
     height: 90px;
     padding: 0 25px;
