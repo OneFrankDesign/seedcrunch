@@ -139,7 +139,7 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "Green Metal Gardening Shovel",
+        name: "Metal Gardening Shovel",
         imageUrl:
           "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         price: 12.99,
@@ -160,7 +160,7 @@ const SHOP_DATA = [
       },
       {
         id: 4,
-        name: "Gardener's Starter Tool Kit",
+        name: "Gardener's Starter Kit",
         imageUrl:
           "https://images.unsplash.com/photo-1601312540057-7234a01baef6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=861&q=80",
         price: 25.99,

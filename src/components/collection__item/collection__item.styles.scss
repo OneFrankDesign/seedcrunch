@@ -1,0 +1,42 @@
+.collection__item {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  border-bottom: 1px solid #cccccc;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+
+  .image {
+    width: 100%;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 0.75px 3.5px rgba(0, 0, 0, 0.3),
+      0 0.35rem 0.75rem rgba(0, 0, 0, 0.1);
+  }
+
+  .collection__footer {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+    .name {
+      width: 85%;
+      margin-left: 5px;
+    }
+
+    .price {
+      width: 15%;
+    }
+  }
+}
