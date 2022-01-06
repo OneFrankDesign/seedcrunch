@@ -51,5 +51,6 @@
 
 .collection__item .collection__footer .price {
   width: 15%;
+  margin-right: 5px;
 }
 /*# sourceMappingURL=collection__item.styles.css.map */

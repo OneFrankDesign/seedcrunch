@@ -33,9 +33,19 @@
     }
 
     .content {
-      opacity: 0.9;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      opacity: 1;
+      background-color: #016700;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2),
+        0 0.5rem 2rem rgba(0, 0, 0, 0.5);
       transition: all 0.3s;
+
+      .title {
+        color: #fff;
+      }
+
+      .subtitle {
+        color: #fff;
+      }
     }
   }
 
@@ -52,8 +62,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #eaeaea;
-    border-radius: 2px;
+    border-radius: 5px;
     background-color: #fff;
     opacity: 0.7;
     position: absolute;
