@@ -4,21 +4,14 @@ import { Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import HomePage from "./pages/homepage/homepage.component.jsx";
-
-const FruitsPage = () => {
-  return (
-    <div>
-      <h1>Fruits</h1>
-    </div>
-  );
-};
+import ShopPage from "./pages/shop/shop.component.jsx";
 
 function App() {
   return (
     <div>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
-        <Route path="/fruits/*" element={<FruitsPage />} />
+        <Route exact path="/shop" element={<ShopPage />} />
       </Routes>
     </div>
   );
