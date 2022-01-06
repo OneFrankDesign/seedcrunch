@@ -5,9 +5,8 @@
   flex: 1 1 auto;
   align-items: center;
   justify-content: center;
-  border: 1px solid #eaeaea;
   margin: 0 7.5px 15px;
-  border-radius: 5px;
+  border-radius: 10px;
   border-bottom: 1px solid #cccccc;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -58,6 +57,14 @@
     background-color: #fff;
     opacity: 0.7;
     position: absolute;
+
+    .link {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
 
     .title {
       font-weight: bolder;
