@@ -1,0 +1,21 @@
+.sign-in {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  font-weight: bolder;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.sign-in .title {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=sign-in.styles.css.map */
