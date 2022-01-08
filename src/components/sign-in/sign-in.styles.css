@@ -1,5 +1,5 @@
 .sign-in {
-  width: 30vw;
+  width: 380px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,15 +7,24 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 15px;
+  padding: 10px;
   background-color: #fdfdfd;
   border-radius: 10px;
-  font-weight: bolder;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .sign-in .title {
   margin: 10px 0;
+  font-weight: bolder;
+}
+
+.sign-in .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=sign-in.styles.css.map */
