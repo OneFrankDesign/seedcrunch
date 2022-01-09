@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=sign-in-and-sign-up.styles.css.map */
+.sign-in-and-sign-up {
+  width: 850px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 15px auto;
+}
+/*# sourceMappingURL=sign-in-and-sign-up.styles.css.map */

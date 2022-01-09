@@ -1,0 +1,19 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  padding: 10px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+
+  .title {
+    margin: 10px 0;
+    font-weight: bolder;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
