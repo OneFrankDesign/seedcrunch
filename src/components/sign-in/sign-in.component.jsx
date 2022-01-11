@@ -56,7 +56,7 @@ class SignIn extends React.Component {
 
           <div className="buttons">
             <CustomButton type="submit">
-              Sign In <i class="fas fa-sign-in-alt"></i>
+              Sign In <i className="fas fa-sign-in-alt"></i>
             </CustomButton>
             <CustomButton
               type="button"
@@ -64,7 +64,7 @@ class SignIn extends React.Component {
               isGoogleSignIn
             >
               {" "}
-              Sign In With Google <i class="fab fa-google"></i>
+              Sign In With Google <i className="fab fa-google"></i>
             </CustomButton>
           </div>
         </form>
