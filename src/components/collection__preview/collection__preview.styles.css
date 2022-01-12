@@ -11,8 +11,10 @@
 }
 
 .collection__preview .title {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 25px;
+  margin-left: 15px;
+  color: #4e4e4e;
 }
 
 .collection__preview .preview {

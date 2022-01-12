@@ -11,6 +11,15 @@
   background-color: #016700;
   color: #fdfdfd;
   text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: none;
   cursor: pointer;
 }
@@ -30,5 +39,19 @@
   background-color: #fdfdfd;
   color: #357ae8;
   border: none;
+}
+
+.custom__button.inverted {
+  background-color: #fdfdfd;
+  color: #016700;
+  border: none;
+}
+
+.custom__button.inverted:hover {
+  background-color: #016700;
+  color: #fdfdfd;
+  border: none;
+  -webkit-box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=custom__button.styles.css.map */

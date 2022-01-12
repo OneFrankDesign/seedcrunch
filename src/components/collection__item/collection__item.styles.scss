@@ -8,6 +8,7 @@
   border-radius: 10px;
   border-bottom: 1px solid #cccccc;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  position: relative;
 
   .image {
     width: 100%;
@@ -19,6 +20,31 @@
     border-top-right-radius: 10px;
     box-shadow: 0 0.75px 3.5px rgba(0, 0, 0, 0.3),
       0 0.35rem 0.75rem rgba(0, 0, 0, 0.1);
+  }
+
+  .custom__button {
+    width: 80%;
+    opacity: 0.7;
+    border-radius: 10px;
+    position: absolute;
+    top: 255px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
+    .image {
+      filter: grayscale(0.5);
+      opacity: 0.8;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .custom__button {
+      opacity: 0.85;
+      display: flex;
+    }
   }
 
   .collection__footer {
