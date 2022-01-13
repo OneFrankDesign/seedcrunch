@@ -1,0 +1,53 @@
+.checkout-page {
+  width: 55%;
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 25px auto 0;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+          box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  border: rgba(0, 0, 0, 0.2) solid 1px;
+}
+
+.checkout-page .checkout-header {
+  width: 100%;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #016700;
+}
+
+.checkout-page .checkout-header .header-block {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #016700;
+  width: 23%;
+}
+
+.checkout-page .checkout-header .header-block:last-child {
+  width: 8%;
+}
+
+.checkout-page .total {
+  margin-top: 30px;
+  margin-left: auto;
+  font-size: 36px;
+}
+/*# sourceMappingURL=checkout.styles.css.map */
