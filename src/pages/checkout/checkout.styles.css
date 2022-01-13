@@ -50,4 +50,11 @@
   margin-left: auto;
   font-size: 36px;
 }
+
+.checkout-page .empty-message {
+  font-size: 18px;
+  margin: auto;
+  font-weight: bolder;
+  color: #888;
+}
 /*# sourceMappingURL=checkout.styles.css.map */

@@ -59,10 +59,15 @@
 }
 
 .collection__item:hover .custom__button {
-  opacity: 0.85;
+  font-weight: bold;
+  opacity: 0.7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.collection__item:hover .custom__button:hover {
+  opacity: 1;
 }
 
 .collection__item .collection__footer {
