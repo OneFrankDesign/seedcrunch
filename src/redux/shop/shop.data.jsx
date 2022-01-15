@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  fruits: {
     id: 1,
     title: "Fruits",
     routeName: "fruits",
@@ -41,7 +41,7 @@ const SHOP_DATA = [
       },
       {
         id: 6,
-        name: "Summer's Ocean Seedless Grape",
+        name: "Summer's Ocean Seedless",
         imageUrl:
           "https://images.unsplash.com/photo-1595938688117-8af7b8da9fca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=592&q=80",
         price: 5.99,
@@ -69,7 +69,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  vegetables: {
     id: 2,
     title: "Vegetables",
     routeName: "vegetables",
@@ -132,7 +132,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  gear: {
     id: 3,
     title: "Gear",
     routeName: "gear",
@@ -174,7 +174,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  ornamentals: {
     id: 4,
     title: "Ornamentals",
     routeName: "ornamentals",
@@ -230,7 +230,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  herbs: {
     id: 5,
     title: "Herbs",
     routeName: "herbs",
@@ -279,6 +279,6 @@ const SHOP_DATA = [
       },
     ],
   },
-];
+};
 
 export default SHOP_DATA;

@@ -1,13 +1,18 @@
 import React from "react";
 import CollectionsOverview from "../../components/collections-overview/collections-overview.component";
-
+import CollectionPage from "../collection/collection.component";
+import { Route, Routes } from "react-router-dom";
 import "./shop.styles.css";
 
-const ShopPage = ({ collections }) => (
-  <div className="shop__page">
-    <h1 className="title">Collections</h1>
-    <CollectionsOverview collections={collections} />
-  </div>
-);
+const ShopPage = () => {
+  return (
+    <div className="shop-page">
+      <Routes>
+        <Route path="/" element={<CollectionsOverview />} />
+        <Route path=":collectionId" element={<CollectionPage />} />
+      </Routes>
+    </div>
+  );
+};
 
 export default ShopPage;
