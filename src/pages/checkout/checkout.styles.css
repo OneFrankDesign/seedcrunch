@@ -51,10 +51,24 @@
   font-size: 36px;
 }
 
+.checkout-page button {
+  margin-left: auto;
+  margin-top: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
 .checkout-page .empty-message {
   font-size: 18px;
   margin: auto;
   font-weight: bolder;
   color: #888;
+}
+
+.checkout-page .test-warning {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  color: red;
 }
 /*# sourceMappingURL=checkout.styles.css.map */

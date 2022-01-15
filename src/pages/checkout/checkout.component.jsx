@@ -6,6 +6,7 @@ import {
   selectCartItems,
   selectCartTotal,
 } from "../../redux/cart/cart.selectors";
+import StripeCheckoutButton from "../../components/stripe-button/stripe-button.component";
 
 import "./checkout.styles.css";
 
@@ -36,8 +37,14 @@ const CheckoutPage = ({ cartItems, total }) => (
       <span className="empty-message">Your cart is empty</span>
     )}
     <div className="total">
-      <span>TOTAL: ${Math.round(total * 100) / 100}</span>
+      <span>TOTAL: ${total.toFixed(2)}</span>
     </div>
+    <div className="test-warning">
+      *Please use the following test credit card for payments*
+      <br />
+      4242 4242 4242 4242 - Exp: 01/23 - CVV: 123
+    </div>
+    <StripeCheckoutButton price={total.toFixed(2)} />
   </div>
 );
 
