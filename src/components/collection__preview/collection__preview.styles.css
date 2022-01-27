@@ -15,6 +15,7 @@
   margin-bottom: 25px;
   margin-left: 15px;
   color: #4e4e4e;
+  display: inline-block;
 }
 
 .collection__preview .preview {
