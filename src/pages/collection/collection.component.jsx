@@ -1,21 +1,19 @@
-import React, { useEffect } from "react";
-import { connect } from "react-redux";
-import { useParams } from "react-router";
+import React from "react";
 
 import CollectionItem from "../../components/collection__item/collection__item.component";
 
 import { selectCollection } from "../../redux/shop/shop.selectors";
-import { changeShopParams } from "../../redux/shop/shop.actions";
 
 import "./collection.styles.css";
 
-const CollectionPage = ({ collection, changeParams }) => {
-  const { title, items } = collection;
-  let params = useParams();
+import { useParams } from "react-router-dom";
+import { useSelector } from "react-redux";
 
-  useEffect(() => {
-    changeParams(params.collectionId);
-  });
+const CollectionPage = () => {
+  let params = useParams();
+  const collection = useSelector(selectCollection(params.collectionId));
+  const { title, items } = collection;
+
   return (
     <div className="collection-page">
       <h2 className="title">{title}</h2>
@@ -28,12 +26,4 @@ const CollectionPage = ({ collection, changeParams }) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  collection: selectCollection(state.shop.params)(state),
-});
-
-const mapDispatchToProps = (dispatch) => ({
-  changeParams: (item) => dispatch(changeShopParams(item)),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(CollectionPage);
+export default CollectionPage;
